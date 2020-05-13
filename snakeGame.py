@@ -94,13 +94,9 @@ def move():
 
 window.listen()
 window.onkeypress(goUp, "w")
-window.onkeypress(goUp, "Up")
 window.onkeypress(goDown, "s")
-window.onkeypress(goDown, "Down")
 window.onkeypress(goRight, "d")
-window.onkeypress(goRight, "Right")
 window.onkeypress(goLeft, "a")
-window.onkeypress(goLeft, "Left")
 
 # main game loop
 while True:
