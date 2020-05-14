@@ -118,7 +118,7 @@ while True:
         pen.clear()
         pen.write("Score: 0  High Score: {}".format(highScore), align="center", font=("Courier", 24, "normal"))
 
-        delay = 0.1
+        delay -= 0.1
 
     # check for collision
     if head.distance(food) < 20:
@@ -174,7 +174,7 @@ while True:
             score = 0
             pen.clear()
             pen.write("Score: 0  High Score: {}".format(highScore), align="center", font=("Courier", 24, "normal"))
-            delay = 0.1
+            delay -= 0.1
 
     time.sleep(delay)
 
